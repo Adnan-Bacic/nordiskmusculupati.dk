@@ -17,7 +17,7 @@ hvor vi bla. kombinerer teknikker fra den alternative behandlerverden med avance
 samt allerede etablerede behandlingsteknikker som bruges i osteopati, fysioterapi og kiropraktik.
 Behandllingen er særlig gavnlig hvis du har
         </p>
-        <ul class="list-unstyled">
+        <ul class="list-unstyled text-center">
           <li>Migræne/hovedpine</li>
           <li>Nakke- og rygspændinger</li>
           <li>Skuldersmerter</li>
@@ -36,7 +36,7 @@ Behandllingen er særlig gavnlig hvis du har
         <hr class="my-5">
       </div>
       
-      <div class="col-12">
+      <div class="col-6">
         <h2>Cupping terapi</h2>
         <p>
           Cupping terapi er inkluderet i en Musculupati behandling, hvis det vurderes relevant for din problematik,
@@ -55,7 +55,9 @@ er det muligt at vælge om man vil have cuppet 1, 2 eller 3 forskellige områder
 Områderne er opdelt således: bagside ben – ryg og nakke – forside ben – arme.
 Ved ønsket cupping af flere områder, cuppes 1 område af gangen.
         </p>
-        <img src="~/assets/img/cupping.jpg" class="img-fluid" alt="cupping" />
+      </div>
+      <div class="col-6">
+          <img src="~/assets/img/cupping.jpg" class="img-fluid" alt="cupping" />
       </div>
       </div>
       </div>

@@ -7,13 +7,13 @@
     <p class="h2 text-light">Manuel behandling af muskel, led-, og nervesmerter</p>
   </div>
   <div class="col-12">
-    <NuxtLink to="/behandlinger">
-      <button class="btn btn-primary">Se ydelser</button>
-    </NuxtLink>
-    <button class="btn btn-primary">
+    <button class="btn btn-primary btn-lg">
       <a href="https://system.easypractice.net/book/nordisk-musculupati?cookie_fixed=1#choose-service"
-      class="text-light" target="_blank" rel="noopener noreferrer">Book tid</a>
+      class="text-light" target="_blank" rel="noopener noreferrer">BOOK TID</a>
     </button>
+        <NuxtLink to="/behandlinger">
+      <button class="btn btn-outline-primary btn-lg text-light">SE BEHANDLINGER</button>
+    </NuxtLink>
   </div>
 </div>
 </div>
@@ -44,38 +44,129 @@ samt teknikker inspireret af osteopati, fysioterapi samt kiropraktik.
         </p>
         <a href="https://system.easypractice.net/book/nordisk-musculupati#choose-service"
         target="_blank" rel="noopener noreferrer">
-    <button class="btn btn-primary">Book tid</button>
+    <button class="btn btn-primary">BOOK TID</button>
     </a>
       </div>
     </div>
   </div>
 
-  <div class="container-fluid pt-5 pb-5 reviewBG">
-    <div class="row">
-      <div class="col-12 mb-5">
-        <h2 class="text-center text-light">Andmeldelser</h2>
-      </div>
-    <div v-for="review in reviews" v-bind:key="review.id" class="col-lg-4 col-sm-12 mb-5">
+<div class="container-fluid pt-5 mb-5 reviewBG" id="reviews">
+  <div class="row">
+    <div class="col-12 mb-5">
+      <h2 class="text-center text-light">Andmeldelser</h2>
+    </div>
+    <div class="col-12">
+  <div class="swiper-container">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="container-fluid">
+              <div class="row">
+                <div v-for="review in reviews1" v-bind:key="review.id" class="col-3 mx-auto mb-5">
       <Review
       :title="review.title"
       :body="review.body"
       :link="review.link"
       />
     </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="container-fluid">
+              <div class="row">
+                <div v-for="review in reviews2" v-bind:key="review.id" class="col-3 mx-auto mb-5">
+      <Review
+      :title="review.title"
+      :body="review.body"
+      :link="review.link"
+      />
+    </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="container-fluid">
+              <div class="row">
+                <div v-for="review in reviews3" v-bind:key="review.id" class="col-3 mx-auto mb-5">
+      <Review
+      :title="review.title"
+      :body="review.body"
+      :link="review.link"
+      />
+    </div>
+              </div>
+            </div>
+          </div>
       </div>
-      
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
+  </div>
+    </div>
+  </div>
+</div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2>Samarbejde</h2>
+            <hr class="my-4">
+      </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+            <p>Nordisk Musculupati sørger for at holde den professionelle UFC-fighter Damir Hadzovic
+              skadesfri igennem hans intense daglige træning.</p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <img src="~/assets/img/damir-hadzovic.png" class="img-fluid" alt="damir hadzovic" />
+        </div>
+        <div class="col-12">
+          <a href="https://system.easypractice.net/book/nordisk-musculupati#choose-service"
+        target="_blank" rel="noopener noreferrer">
+    <button class="btn btn-primary">BOOK TID</button>
+    </a>
+        </div>
+    </div>
   </div>
   </div>
 </template>
 
 <script>
-import { reviews3 } from '../constants/constants';
+import { reviews1, reviews2, reviews3 } from '../constants/constants';
+import Swiper, { Navigation, Pagination } from 'swiper';
+import 'swiper/swiper-bundle.css';
+
+Swiper.use([ Navigation, Pagination ]);
 
 export default {
 	data(){
 		return{
-			reviews: reviews3
+			reviews1: reviews1,
+			reviews2: reviews2,
+			reviews3: reviews3,
 		};
+	},
+	mounted() {
+		new Swiper('.swiper-container', {
+			loop: true,
+			pagination: {
+				el: '.swiper-pagination',
+			},
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			},
+			scrollbar: {
+				el: '.swiper-scrollbar',
+			},
+		});
 	},
 	head:{
 		title: 'Nordisk Musculupati',

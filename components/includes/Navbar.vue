@@ -1,17 +1,53 @@
 <template>
 <div class="fixed-top">
   <div class="pt-1 pb-1 navbarBG">
-    <div class="container text-light">
+    <div class="container-fluid text-light">
     <div class="row">
-      <div class="col col-sm-12">
-        <span>
+      <div class="col-sm-12 col-lg">
+        <span class="mr-3">
           <i class="fas fa-location-arrow mr-1"></i>
           Adresse: <a :href="googleMapUrl" target="_blank" rel="noopener noreferrer">{{ address }}</a>
         </span>
-      <br>
-    <span><i class="fas fa-envelope mr-1"></i>
+      </div>
+      <div class="col-sm-12 col-lg">
+    <span class="mr-3">
+      <i class="fas fa-envelope mr-1"></i>
     E-mail: <a href="mailto:kontakt@nordiskmusculupati.dk">{{ email }}</a>
     </span>
+      </div>
+      <div class="col-sm-12 col-lg">
+    <span class="mr-3">
+      <i class="fas fa-phone"></i>
+      Telefon: <a href="tel:61 31 00 94">{{ phone }}</a>
+    </span>
+      </div>
+      <div class="col-sm-12 col-lg">
+    <span class="float-right">
+        Følg os på:
+        <a href="https://www.facebook.com/Nordisk-Musculupati-101909361597693"
+              target="_blank"
+              rel="noopener noreferrer"><i class="fab fa-facebook socialMedia"></i>
+            </a>
+              <a href="https://www.instagram.com/nordiskmusculupati/"
+              target="_blank"
+              rel="noopener noreferrer">
+              <i class="fab fa-instagram socialMedia"></i>
+            </a>
+        </span>
+      </div>
+      <div class="col-sm-12 col-lg ">
+        <a href="https://www.facebook.com/Nordisk-Musculupati-101909361597693/reviews/?ref=page_internal"
+              target="_blank"
+              rel="noopener noreferrer">
+              <span class="bg-primary text-light">
+              <span class="h5 text-light">5</span>
+          <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+              </span>
+              </a>
       </div>
     </div>
   </div>
@@ -46,7 +82,7 @@
       <li class="nav-item">
         <a href="https://system.easypractice.net/book/nordisk-musculupati?cookie_fixed=1#choose-service"
         class="nav-link" target="_blank" rel="noopener noreferrer">
-        <button class="btn btn-primary">Book tid<i class="fas fa-external-link-alt ml-2"></i></button>
+        <button class="btn btn-primary">BOOK TID</button>
         </a>
 
       </li>
@@ -62,12 +98,10 @@
     <NuxtLink to="/behandlere" class="dropdown-item">
       Behandlere
     </NuxtLink>
-    <NuxtLink to="/andmeldelser" class="dropdown-item">
-      Andmeldelser
-    </NuxtLink>
-    <NuxtLink to="/samarbejde" class="dropdown-item">
-      Samarbejde
-    </NuxtLink>
+    <!--https://nordiskmusculupati.dk/-->
+    <a href="#reviews" class="dropdown-item">
+      Udtalelser
+    </a>
           <NuxtLink to="/kontakt" class="dropdown-item">
       Kontakt
     </NuxtLink>
@@ -80,21 +114,26 @@
 </template>
 
 <script>
-import { googleMapUrl, email, address } from '../../constants/constants';
+import { googleMapUrl, email, address, phone } from '../../constants/constants';
 
 export default {
 	data(){
 		return{
 			googleMapUrl: googleMapUrl,
 			email: email,
-			address: address
+			address: address,
+			phone: phone,
 		};
-	}
+	},
+
 };
 </script>
 
 <style lang="scss">
   .navbarBG{
     background-color: $materialDark;
+  }
+  .socialMedia{
+    font-size: 20px;
   }
 </style>

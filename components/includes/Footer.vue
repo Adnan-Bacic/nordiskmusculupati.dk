@@ -30,12 +30,15 @@
             <li>
               <a href="https://www.facebook.com/Nordisk-Musculupati-101909361597693"
               target="_blank"
-              rel="noopener noreferrer">Facebook</a>
+              rel="noopener noreferrer"><i class="fab fa-facebook socialMedia"></i>
+            </a>
             </li>
             <li>
               <a href="https://www.instagram.com/nordiskmusculupati/"
               target="_blank"
-              rel="noopener noreferrer">Instagram</a>
+              rel="noopener noreferrer">
+              <i class="fab fa-instagram socialMedia"></i>
+            </a>
             </li>
           </ul>
         </div>

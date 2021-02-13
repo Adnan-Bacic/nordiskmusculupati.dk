@@ -29,7 +29,8 @@ export default {
 		script: [
 			{ src: 'https://code.jquery.com/jquery-3.5.1.slim.min.js' },
 			{ src: 'https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js' },
-			{ src: 'https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js' }
+			{ src: 'https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js' },
+			{ src: 'pixel.js', type: 'text/javascript' }
 		],
 	},
 
@@ -41,7 +42,8 @@ export default {
 	// Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
 	plugins: [
 		//{ src: '~/plugins/facebook-pixel.js' },
-		{ src: '~/plugins/bootstrap-form-validation.js', mode: 'client' }
+		{ src: '~/plugins/bootstrap-form-validation.js', mode: 'client' },
+		//{ src: '~/plugins/fb-pixel.js' }
 	],
 
 	// Auto import components (https://go.nuxtjs.dev/config-components)

@@ -13,13 +13,6 @@
           Klinikken ligger inde i SATS
           </p>
           <p>Du er altid velkommen til at kontakte klinikken for yderligere spørgsmål.</p>
-
-          <h2>Åbningstider</h2>
-          <ul class="list-unstyled">
-            <li v-for="openHours in openingHours" v-bind:key="openHours.day">
-              {{ openHours.day }} {{ openHours.hours }}
-            </li>
-          </ul>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
           <p><span class="text-danger">*</span> = Felt skal udfyldes</p>
@@ -75,7 +68,7 @@
           {{ invalidMessage }}
         </div>
   </div>
-  <button type="submit" class="btn btn-primary">Send</button>
+  <button type="submit" class="btn btn-primary">SEND</button>
 </form>
 <div v-if="error" class="text-danger font-weight-bold">
   {{ error }}
@@ -91,12 +84,12 @@ import { googleMapUrl, email, address, openingHours } from '../constants/constan
 export default {
 	data(){
 		return{
-      error: '',
-      formName: '',
-      formEmail: '',
-      formNumber: '',
-      formSubject: '',
-      formMessage: '',
+			error: '',
+			formName: '',
+			formEmail: '',
+			formNumber: '',
+			formSubject: '',
+			formMessage: '',
 			succesMessage: 'Fint',
 			invalidMessage: 'Udfyld venligst dette felt',
 			googleMapUrl: googleMapUrl,
@@ -118,26 +111,26 @@ export default {
 	methods:{
 		//TODO: doesnt work when you first visit the page. only after refresh
 		formSubmit(){
-      this.error = 'Midlertidigt ude a drift. Du kan stadigvæk skrive til direkte til vores E-mail: kontakt@nordiskmusculupati.dk'
+			this.error = 'Midlertidigt ude a drift. Du kan stadigvæk skrive til direkte til vores E-mail: kontakt@nordiskmusculupati.dk';
 			if(this.formName && this.formEmail && this.formNumber && this.formSubject && this.formMessage){
-        console.log(this.formName, this.formEmail, this.formNumber, this.formSubject, this.formMessage);
-      } else {
-        console.log('not filled out')
-      }
+				console.log(this.formName, this.formEmail, this.formNumber, this.formSubject, this.formMessage);
+			} else {
+				console.log('not filled out');
+			}
 		}
-  },
-  /*
+	},
+	/*
   https://stackoverflow.com/questions/50213901/reload-page-in-vue-just-once-in-mounted
   form only works after reload. quick workaround.
   */
-  mounted(){
-    if(localStorage.getItem('reload')){
-      localStorage.removeItem('reload')
-    } else {
-      localStorage.setItem('reload', '1')
-      location.reload();
-    }
-  }
+	mounted(){
+		if(localStorage.getItem('reload')){
+			localStorage.removeItem('reload');
+		} else {
+			localStorage.setItem('reload', '1');
+			location.reload();
+		}
+	}
 };
 </script>
 

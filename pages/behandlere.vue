@@ -12,7 +12,7 @@
           <p>Musculupat studerende. (Færdig ultimo 2020).</p>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12">
-          <img src="~/assets/img/benjamin-bacic.jpg" class="img-fluid" alt="benjamin bacic" />
+          <img src="~/assets/img/benjamin-bacic.jpg" class="img-fluid potraitImg" alt="benjamin bacic" />
         </div>
       </div>
   </div>
@@ -34,5 +34,7 @@ export default {
 </script>
 
 <style>
-
+.potraitImg{
+  height: 500px;
+}
 </style>
