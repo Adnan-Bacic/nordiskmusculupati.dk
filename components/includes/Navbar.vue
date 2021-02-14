@@ -99,7 +99,7 @@
       Behandlere
     </NuxtLink>
     <!--https://nordiskmusculupati.dk/-->
-    <a href="#reviews" class="dropdown-item">
+    <a href="https://nordiskmusculupati.dk/#reviews" class="dropdown-item">
       Udtalelser
     </a>
           <NuxtLink to="/kontakt" class="dropdown-item">

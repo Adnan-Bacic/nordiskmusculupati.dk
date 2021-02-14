@@ -63,7 +63,7 @@ samt teknikker inspireret af osteopati, fysioterapi samt kiropraktik.
           <div class="swiper-slide">
             <div class="container-fluid">
               <div class="row">
-                <div v-for="review in reviews1" v-bind:key="review.id" class="col-3 mx-auto mb-5">
+                <div v-for="review in reviews1" v-bind:key="review.id" class="col-lg-3 col-sm-12 mx-auto mb-5">
       <Review
       :title="review.title"
       :body="review.body"
@@ -76,7 +76,7 @@ samt teknikker inspireret af osteopati, fysioterapi samt kiropraktik.
           <div class="swiper-slide">
             <div class="container-fluid">
               <div class="row">
-                <div v-for="review in reviews2" v-bind:key="review.id" class="col-3 mx-auto mb-5">
+                <div v-for="review in reviews2" v-bind:key="review.id" class="col-lg-3 col-sm-12 mx-auto mb-5">
       <Review
       :title="review.title"
       :body="review.body"
@@ -89,7 +89,7 @@ samt teknikker inspireret af osteopati, fysioterapi samt kiropraktik.
           <div class="swiper-slide">
             <div class="container-fluid">
               <div class="row">
-                <div v-for="review in reviews3" v-bind:key="review.id" class="col-3 mx-auto mb-5">
+                <div v-for="review in reviews3" v-bind:key="review.id" class="col-lg-3 col-sm-12 mx-auto mb-5">
       <Review
       :title="review.title"
       :body="review.body"
@@ -200,6 +200,7 @@ export default {
   }
   @media screen and (max-width: 480px) {
     #hero{
+      margin-top: 50px;
       min-height: 360px;
     }
   }

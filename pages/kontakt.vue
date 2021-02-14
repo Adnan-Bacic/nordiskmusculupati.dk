@@ -96,17 +96,17 @@ export default {
 			email: email,
 			address: address,
 			openingHours: openingHours,
-			head:{
-				title: 'Nordisk Musculupati',
-				meta: [
-					{ hid: 'kontakt desc', name: 'description', content: 'Nordisk Musculupati | Kontakt' },
-					//fb
-					{ property: 'og:title', content: 'Nordisk Musculupati | Kontakt' },
-					{ property: 'og:description', content: 'Nordisk Musculupati | Kontakt' },
-					{ property: 'og:url', content: 'https://nordiskmusculupati.dk/kontakt' },
-				]
-			}
 		};
+	},
+	head:{
+		title: 'Nordisk Musculupati',
+		meta: [
+			{ hid: 'kontakt desc', name: 'description', content: 'Nordisk Musculupati | Kontakt' },
+			//fb
+			{ property: 'og:title', content: 'Nordisk Musculupati | Kontakt' },
+			{ property: 'og:description', content: 'Nordisk Musculupati | Kontakt' },
+			{ property: 'og:url', content: 'https://nordiskmusculupati.dk/kontakt' },
+		]
 	},
 	methods:{
 		//TODO: doesnt work when you first visit the page. only after refresh
