@@ -18,6 +18,11 @@ export default {
   //push content down since navbar is fixed
   margin-top: 200px;
 }
+  @media screen and (max-width: 1000px) {
+    .spacer{
+      margin-top: 250px;
+    }
+  }
 @media screen and (max-width: 480px) {
     .spacer{
       margin-top: 260px;

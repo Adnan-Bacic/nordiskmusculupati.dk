@@ -98,7 +98,6 @@
     <NuxtLink to="/behandlere" class="dropdown-item">
       Behandlere
     </NuxtLink>
-    <!--https://nordiskmusculupati.dk/-->
     <a href="https://nordiskmusculupati.dk/#reviews" class="dropdown-item">
       Udtalelser
     </a>
