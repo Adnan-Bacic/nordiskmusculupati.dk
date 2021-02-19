@@ -54,7 +54,7 @@
   </div>
 <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
   <NuxtLink to="/" class="navbar-brand">
-      <img src="~/assets/img/logo1.png" class="img-fluid" width="100" alt="logo" />
+      <img src="~/assets/img/logo2.png" class="img-fluid" width="100" alt="logo" />
     </NuxtLink>
   <button class="navbar-toggler" type="button"
   data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
