@@ -18,7 +18,8 @@
           <p><span class="text-danger">*</span> = Felt skal udfyldes</p>
 
           <form v-on:submit.prevent="formSubmit" class="needs-validation" novalidate>
-  <div class="form-group">
+<div class="form-row">
+    <div class="form-group col-lg-6">
     <label for="name">Navn</label><span class="text-danger">*</span>
     <input v-model="formName" type="text" class="form-control" id="name" required>
     <div class="valid-feedback">
@@ -28,7 +29,7 @@
           {{ invalidMessage }}
         </div>
   </div>
-  <div class="form-group">
+  <div class="form-group col-lg-6">
     <label for="email">E-mail</label><span class="text-danger">*</span>
     <input v-model="formEmail" type="email" class="form-control" id="email" required>
     <div class="valid-feedback">
@@ -38,6 +39,7 @@
           {{ invalidMessage }}
         </div>
   </div>
+</div>
   <div class="form-group">
     <label for="phone">Telefon</label><span class="text-danger">*</span>
     <input v-model="formNumber" type="number" class="form-control" id="phone" required>
@@ -68,7 +70,7 @@
           {{ invalidMessage }}
         </div>
   </div>
-  <button type="submit" class="btn btn-primary">SEND</button>
+  <button type="submit" class="btn btn-outline-primary">SEND</button>
 </form>
 <div v-if="error" class="text-danger font-weight-bold">
   {{ error }}

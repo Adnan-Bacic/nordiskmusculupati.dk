@@ -29,7 +29,7 @@ Behandllingen er særlig gavnlig hvis du har
           <li>Sportsskader</li>
           <li>Akutte og kroniske smerter</li>
         </ul>
-        <img src="~/assets/img/musculupati.png" class="img-fluid" alt="musculupati" />
+        <img src="~/assets/img/musculupati.png" class="img-fluid w-100" alt="musculupati" />
       </div>
 
       <div class="col-12">

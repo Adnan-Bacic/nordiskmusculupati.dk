@@ -1,28 +1,29 @@
 <template>
 <div class="fixed-top">
-  <div class="pt-1 pb-1 navbarBG">
+  <!--info-->
+  <div class="pt-1 pb-1 navbarBG headerText">
     <div class="container-fluid text-light">
     <div class="row">
-      <div class="col-sm-12 col-lg">
+      <div class="col-sm-12 col-lg my-auto">
         <span class="mr-3">
           <i class="fas fa-location-arrow mr-1"></i>
           Adresse: <a :href="googleMapUrl" target="_blank" rel="noopener noreferrer">{{ address }}</a>
         </span>
       </div>
-      <div class="col-sm-12 col-lg">
+      <div class="col-sm-12 col-lg my-auto">
     <span class="mr-3">
       <i class="fas fa-envelope mr-1"></i>
     E-mail: <a href="mailto:kontakt@nordiskmusculupati.dk">{{ email }}</a>
     </span>
       </div>
-      <div class="col-sm-12 col-lg">
+      <div class="col-sm-12 col-lg my-auto">
     <span class="mr-3">
       <i class="fas fa-phone"></i>
       Telefon: <a href="tel:61 31 00 94">{{ phone }}</a>
     </span>
       </div>
-      <div class="col-sm-12 col-lg">
-    <span class="float-right">
+      <div class="col-sm-12 col-lg my-auto d-flex justify-content-end">
+    <span class="mr-4">
         Følg os på:
         <a href="https://www.facebook.com/Nordisk-Musculupati-101909361597693"
               target="_blank"
@@ -34,8 +35,7 @@
               <i class="fab fa-instagram socialMedia"></i>
             </a>
         </span>
-      </div>
-      <div class="col-sm-12 col-lg ">
+      
         <a href="https://www.facebook.com/Nordisk-Musculupati-101909361597693/reviews/?ref=page_internal"
               target="_blank"
               rel="noopener noreferrer">
@@ -52,6 +52,7 @@
     </div>
   </div>
   </div>
+  <!--navbar-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
   <NuxtLink to="/" class="navbar-brand">
       <img src="~/assets/img/logo2.png" class="img-fluid" width="100" alt="logo" />
@@ -71,13 +72,33 @@
     <ul class="navbar-nav ml-auto mr-5" data-toggle="collapse" data-target=".navbar-collapse.show">
       <li class="nav-item">
         <NuxtLink to="/" class="nav-link">
-      Forside
+      FORSIDE
     </NuxtLink>
       </li>
       <li class="nav-item">
         <NuxtLink to="/behandlinger" class="nav-link">
-      Behandlinger
+      BEHANDLINGER
       </NuxtLink>
+      </li>
+      <li class="nav-item">
+        <NuxtLink :to="{path: '/', hash: '#reviews'}" class="nav-link">
+          UDTALELSER
+        </NuxtLink>
+      </li>
+            <li class="nav-item">
+        <NuxtLink to="/behandlere" class="nav-link">
+      BEHANDLERE
+    </NuxtLink>
+      </li>
+      <li class="nav-item">
+        <NuxtLink to="/priser" class="nav-link">
+      PRISER
+      </NuxtLink>
+      </li>
+      <li class="nav-item">
+        <NuxtLink to="/kontakt" class="nav-link">
+      KONTAKT
+    </NuxtLink>
       </li>
       <li class="nav-item">
         <a href="https://system.easypractice.net/book/nordisk-musculupati?cookie_fixed=1#choose-service"
@@ -85,26 +106,6 @@
         <button class="btn btn-primary">BOOK TID</button>
         </a>
 
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
-        role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Info
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <NuxtLink to="/priser" class="dropdown-item">
-      Priser
-    </NuxtLink>
-    <NuxtLink to="/behandlere" class="dropdown-item">
-      Behandlere
-    </NuxtLink>
-    <a href="https://nordiskmusculupati.dk/#reviews" class="dropdown-item">
-      Udtalelser
-    </a>
-          <NuxtLink to="/kontakt" class="dropdown-item">
-      Kontakt
-    </NuxtLink>
-        </div>
       </li>
     </ul>
   </div>
@@ -134,5 +135,8 @@ export default {
   }
   .socialMedia{
     font-size: 20px;
+  }
+  .headerText{
+    font-size: 0.9rem;
   }
 </style>

@@ -40,6 +40,20 @@
               <i class="fab fa-instagram socialMedia"></i>
             </a>
             </li>
+            <li>
+                      <a href="https://www.facebook.com/Nordisk-Musculupati-101909361597693/reviews/?ref=page_internal"
+              target="_blank"
+              rel="noopener noreferrer">
+              <span class="bg-primary text-light">
+              <span class="h5 text-light">5</span>
+          <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+              </span>
+              </a>
+            </li>
           </ul>
         </div>
       </div>

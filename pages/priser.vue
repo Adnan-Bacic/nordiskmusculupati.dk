@@ -15,6 +15,11 @@
       <li>30 min – 400,-</li>
     </ul>
   </div>
+  <Price
+  title="Musculupati"
+  price="400,-"
+  body="30 min"
+  />
 
   <div class="col-12">
     <h2>Cupping terapi</h2>

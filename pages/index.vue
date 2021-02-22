@@ -53,7 +53,7 @@ samt teknikker inspireret af osteopati, fysioterapi samt kiropraktik.
 <div class="container-fluid pt-5 mb-5 reviewBG" id="reviews">
   <div class="row">
     <div class="col-12 mb-5">
-      <h2 class="text-center text-light">Andmeldelser</h2>
+      <h2 class="text-center text-light">Anmeldelser</h2>
     </div>
     <div class="col-12">
   <div class="swiper-container">
@@ -62,8 +62,8 @@ samt teknikker inspireret af osteopati, fysioterapi samt kiropraktik.
           <!-- Slides -->
           <div class="swiper-slide">
             <div class="container-fluid">
-              <div class="row">
-                <div v-for="review in reviews1" v-bind:key="review.id" class="col-lg-3 col-sm-12 mx-auto mb-5">
+              <div class="row mr-5 ml-5">
+                <div v-for="review in reviews1" v-bind:key="review.id" class="col-lg-4 col-sm-12 mx-auto mb-5">
       <Review
       :title="review.title"
       :body="review.body"
@@ -75,8 +75,8 @@ samt teknikker inspireret af osteopati, fysioterapi samt kiropraktik.
           </div>
           <div class="swiper-slide">
             <div class="container-fluid">
-              <div class="row">
-                <div v-for="review in reviews2" v-bind:key="review.id" class="col-lg-3 col-sm-12 mx-auto mb-5">
+              <div class="row mr-5 ml-5">
+                <div v-for="review in reviews2" v-bind:key="review.id" class="col-lg-4 col-sm-12 mx-auto mb-5">
       <Review
       :title="review.title"
       :body="review.body"
@@ -88,8 +88,8 @@ samt teknikker inspireret af osteopati, fysioterapi samt kiropraktik.
           </div>
           <div class="swiper-slide">
             <div class="container-fluid">
-              <div class="row">
-                <div v-for="review in reviews3" v-bind:key="review.id" class="col-lg-3 col-sm-12 mx-auto mb-5">
+              <div class="row mr-5 ml-5">
+                <div v-for="review in reviews3" v-bind:key="review.id" class="col-lg-4 col-sm-12 mx-auto mb-5">
       <Review
       :title="review.title"
       :body="review.body"
@@ -124,13 +124,13 @@ samt teknikker inspireret af osteopati, fysioterapi samt kiropraktik.
             <p>Nordisk Musculupati sørger for at holde den professionelle UFC-fighter Damir Hadzovic
               skadesfri igennem hans intense daglige træning.</p>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-12">
+        <div class="col-lg-6 col-md-6 col-sm-12 mb-5">
           <img src="~/assets/img/damir-hadzovic.png" class="img-fluid" alt="damir hadzovic" />
         </div>
-        <div class="col-12">
+        <div class="col-lg-12 text-center">
           <a href="https://system.easypractice.net/book/nordisk-musculupati#choose-service"
         target="_blank" rel="noopener noreferrer">
-    <button class="btn btn-primary">BOOK TID</button>
+    <button class="btn btn-primary btn-lg">BOOK TID</button>
     </a>
         </div>
     </div>
