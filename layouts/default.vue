@@ -16,16 +16,16 @@ export default {
 <style lang="scss">
 .spacer{
   //push content down since navbar is fixed
-  margin-top: 200px;
+  margin-top: 180px;
 }
   @media screen and (max-width: 1000px) {
     .spacer{
-      margin-top: 250px;
+      margin-top: 200px;
     }
   }
 @media screen and (max-width: 480px) {
     .spacer{
-      margin-top: 260px;
+      margin-top: 200px;
     }
   }
 </style>

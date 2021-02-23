@@ -5,36 +5,56 @@
     <h1>Priser</h1>
     <hr class="my-4">
   </div>
-  <div class="col-12">
-    <h2>Musculupati</h2>
-    <ul class="list-unstyled">
-      <li>120 min – 1000,-</li>
-      <li>90 min – 800,-</li>
-      <li>60 min – 600,-</li>
-      <li>45 min – 500,-</li>
-      <li>30 min – 400,-</li>
-    </ul>
-  </div>
-  <Price
-  title="Musculupati"
-  price="400,-"
-  body="30 min"
-  />
 
-  <div class="col-12">
-    <h2>Cupping terapi</h2>
-    <ul class="list-unstyled">
-      <li>Cupping af 1 område, 30 min – 300,-</li>
-      <li>Cupping af 2 områder, 45 min – 400,-</li>
-      <li>Cupping af 3 områder, 60 min – 500,-</li>
-    </ul>
+<div class="col-lg-6 mb-5">
+  <div class="card text-center">
+      <div class="card-body">
+        <h2 class="card-title">Musculupati</h2>
+        <hr>
+  <div v-for="p in pricesMusculupati" :key="p.time">
+
+           <p>{{p.time}} / {{ p.price }}</p>
+        <hr>
+
+      </div>
+      <a href="https://system.easypractice.net/book/nordisk-musculupati?cookie_fixed=1#choose-service" target="_blank" rel="noopener noreferrer" class="card-link">
+<button class="btn btn-lg btn-block btn-outline-primary">Book tid</button>
+</a>
+    </div>
   </div>
+</div>
+
+<div class="col-lg-6">
+  <div class="card text-center">
+      <div class="card-body">
+        <h2 class="card-title">Cupping terapi</h2>
+        <hr>
+  <div v-for="p in pricesCupping" :key="p.time">
+
+           <p>{{p.time}} / {{ p.price }}</p>
+        <hr>
+
+      </div>
+      <a href="https://system.easypractice.net/book/nordisk-musculupati?cookie_fixed=1#choose-service" target="_blank" rel="noopener noreferrer" class="card-link">
+<button class="btn btn-lg btn-block btn-outline-primary">Book tid</button>
+</a>
+    </div>
+  </div>
+</div>
   </div>
   </div>
 </template>
 
 <script>
+import { pricesMusculupati, pricesCupping } from '../constants/constants';
+
 export default {
+	data(){
+		return{
+			pricesMusculupati: pricesMusculupati,
+			pricesCupping: pricesCupping
+		};
+	},
 	head:{
 		title: 'Nordisk Musculupati',
 		meta: [

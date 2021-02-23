@@ -62,7 +62,7 @@ samt teknikker inspireret af osteopati, fysioterapi samt kiropraktik.
           <!-- Slides -->
           <div class="swiper-slide">
             <div class="container-fluid">
-              <div class="row mr-5 ml-5">
+              <div class="row mr-md-5 ml-md-5 mr-sm-0 ml-sm-0">
                 <div v-for="review in reviews1" v-bind:key="review.id" class="col-lg-4 col-sm-12 mx-auto mb-5">
       <Review
       :title="review.title"
@@ -75,7 +75,7 @@ samt teknikker inspireret af osteopati, fysioterapi samt kiropraktik.
           </div>
           <div class="swiper-slide">
             <div class="container-fluid">
-              <div class="row mr-5 ml-5">
+              <div class="row mr-md-5 ml-md-5 mr-sm-0 ml-sm-0">
                 <div v-for="review in reviews2" v-bind:key="review.id" class="col-lg-4 col-sm-12 mx-auto mb-5">
       <Review
       :title="review.title"
@@ -88,7 +88,7 @@ samt teknikker inspireret af osteopati, fysioterapi samt kiropraktik.
           </div>
           <div class="swiper-slide">
             <div class="container-fluid">
-              <div class="row mr-5 ml-5">
+              <div class="row mr-md-5 ml-md-5 mr-sm-0 ml-sm-0">
                 <div v-for="review in reviews3" v-bind:key="review.id" class="col-lg-4 col-sm-12 mx-auto mb-5">
       <Review
       :title="review.title"
