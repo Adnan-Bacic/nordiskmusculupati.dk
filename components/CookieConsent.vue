@@ -5,7 +5,7 @@
               <div class="col-11">
                   <p class="text-light">Vi bruger cookies for at forbedre din oplevelse</p>
               </div>
-                  <div class="col">
+                  <div class="col-1">
                       <p v-on:click="closePopUp" class="text-light float-right px-3 pb-3">
                           <i class="fas fa-times"></i>
                       </p>
