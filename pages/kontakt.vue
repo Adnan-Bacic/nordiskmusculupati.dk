@@ -121,18 +121,7 @@ export default {
 			}
 		}
 	},
-	/*
-  https://stackoverflow.com/questions/50213901/reload-page-in-vue-just-once-in-mounted
-  form only works after reload. quick workaround.
-  */
-	mounted(){
-		if(localStorage.getItem('reload')){
-			localStorage.removeItem('reload');
-		} else {
-			localStorage.setItem('reload', '1');
-			location.reload();
-		}
-	}
+	
 };
 </script>
 

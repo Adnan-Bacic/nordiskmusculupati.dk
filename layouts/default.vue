@@ -4,6 +4,7 @@
     <div class="spacer"></div>
     <Nuxt />
     <Footer />
+    <CookieConsent />
   </div>
 </template>
 
@@ -20,12 +21,12 @@ export default {
 }
   @media screen and (max-width: 1000px) {
     .spacer{
-      margin-top: 200px;
+      margin-top: 220px;
     }
   }
 @media screen and (max-width: 480px) {
     .spacer{
-      margin-top: 200px;
+      margin-top: 220px;
     }
   }
 </style>

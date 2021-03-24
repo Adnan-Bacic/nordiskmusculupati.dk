@@ -36,7 +36,7 @@ Behandllingen er særlig gavnlig hvis du har
         <hr class="my-5">
       </div>
       
-      <div class="col-6">
+      <div class="col-lg-6">
         <h2>Cupping terapi</h2>
         <p>
           Cupping terapi er inkluderet i en Musculupati behandling, hvis det vurderes relevant for din problematik,
@@ -56,7 +56,7 @@ Områderne er opdelt således: bagside ben – ryg og nakke – forside ben – 
 Ved ønsket cupping af flere områder, cuppes 1 område af gangen.
         </p>
       </div>
-      <div class="col-6">
+      <div class="col-lg-6">
           <img src="~/assets/img/cupping.jpg" class="img-fluid" alt="cupping" />
       </div>
       </div>
