@@ -25,22 +25,18 @@
       </div>
       <div class="col-12">
         <p>
-          Musculupat®uddannelsen er en 2 årig uddannelse inden for manuel behandling,
-          specialiseret i at forstå og løse forskellige smertetilstande i kroppen.
-          Ligeledes er det en beskyttet titel,
-          som giver dig som forbruger en sikkerhed i at behandlingen er kvalificeret.
-          I Musculupatien kigger vi på kroppens sammenhænge, både de fysiske og neurologiske,
-          for at forstå årsagen til din problematik.
-          Når du forstår årsagen til at din problematik opstår,
-          kan du selv være med til at opretholde en smertefri tilstand
-          og sørge for at din problemtik ikke bliver ved med at vende tilbage.
-          Derfor starter 1. behandling med et kort interview samt bevægeanalyse,
-          for at kunne tilrættelægge den mest optimale behandling for netop din problematik.
-<br>
-Musculupatien bruger både teknikker fra fra den alternative- og etablerede behandlerverden.
-<br>
-De manuelle teknikker som bruges er avancerede massageteknikker
-samt teknikker inspireret af osteopati, fysioterapi samt kiropraktik.
+Musculupat®uddannelsen er en 2 årig uddannelse inden for manuel behandling, specialiseret i at forstå og løse forskellige smertetilstande i kroppen. Ligeledes er det en beskyttet titel, som giver dig som forbruger en sikkerhed i at behandlingen er kvalificeret.
+        </p>
+        <p>
+I Musculupatien undersøger og behandler vi årsagen til din smerte, fordi smerten ikke nødvendigvis stammer fra, der hvor den kommer til udtryk.
+        </p>
+        <p>
+Når du forstår årsagen til at din problematik opstår, kan du selv være med til at opretholde en smertefri tilstand og sørge for at din problemtik ikke bliver ved med at vende tilbage.
+        </p>
+        <p>
+I min behandling, bruger jeg både teknikker fra fra den alternative- og etablerede behandlerverden. De manuelle behandlingsteknikker som jeg bruger er avancerede og dybdegående massageteknikker samt teknikker inspireret af osteopati, fysioterapi samt kiropraktik.
+Du vil efter behandlingen opleve øget velvære, mere bevægelsesfrihed og mindre smerte.
+
         </p>
         <a href="https://system.easypractice.net/book/nordisk-musculupati#choose-service"
         target="_blank" rel="noopener noreferrer">
