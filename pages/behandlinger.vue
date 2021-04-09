@@ -11,14 +11,14 @@
           Musculupati kan hjælpe dig med både muskulære, ledmæssige og nerverelaterede smerter. I Musculupatien undersøger vi årsagen til hvorfor din problematik opstår, hvorfor vi på den måde kan tilrettelægge den mest effektive behandling til netop din problematik. Fordi vi finder årsagen til din problematik, så vil du opleve hurtige resultater, så du igen kan få en hverdag uden smerter.
         </p>
         <p>
-Derfor starter 1. behandling med et kort interview samt bevægeanalyse, for at kunne tilrættelægge den mest optimale behandling for netop din problematik. 
+Derfor starter 1. behandling med et kort interview samt bevægeanalyse, for at kunne tilrættelægge den mest optimale behandling for netop din problematik.
         </p>
         <p>
 I min behandling, bruger jeg både teknikker fra fra den alternative- og etablerede behandlerverden. De manuelle behandlingsteknikker som jeg bruger er avancerede og dybdegående massageteknikker samt teknikker inspireret af osteopati, fysioterapi samt kiropraktik.
-Du vil efter behandlingen opleve øget velvære, mere bevægelsesfrihed og mindre smerte.
-
+Du vil efter behandlingen opleve øget velvære, mere bevægelsesfrihed og mindre smerte. Vi behandler bla.
         </p>
         <ul class="list-unstyled text-center">
+          <li>Nakkesmerter</li>
           <li>Migræne/hovedpine</li>
           <li>Nakke- og rygspændinger</li>
           <li>Skuldersmerter</li>

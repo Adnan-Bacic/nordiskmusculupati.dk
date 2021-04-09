@@ -22,6 +22,9 @@
             <li>
               CVR: 40682023
             </li>
+            <li>
+               <NuxtLink to="/cookie-og-privatlivspolitik">Cookie- og privatlivspolitik</NuxtLink>
+            </li>
           </ul>
         </div>
         <div class="col-lg-4 col-sm-12">
