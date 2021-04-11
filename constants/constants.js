@@ -4,20 +4,24 @@ export const email = 'kontakt@nordiskmusculupati.dk';
 export const address = 'Valby Torvegade 17, 2500 København';
 export const phone = '61 31 00 94';
 export const pricesMusculupati = {
-	2:{
+	1:{
 		price: '500,-',
 		time: '45 min'
 	},
-	3:{
+	2:{
 		price: '600,-',
 		time: '60 min'
 	},
-	4:{
+	3:{
 		price: '800,-',
 		time: '90 min'
 	},
 };
 export const pricesCupping = {
+	1:{
+		price: '300,-',
+		time: '30 min'
+	},
 	2:{
 		price: '400,-',
 		time: '45 min'
