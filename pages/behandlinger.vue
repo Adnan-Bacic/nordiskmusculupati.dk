@@ -40,21 +40,13 @@ Du vil efter behandlingen opleve øget velvære, mere bevægelsesfrihed og mindr
       <div class="col-lg-6">
         <h2>Cupping terapi</h2>
         <p>
-          Cupping terapi er inkluderet i en Musculupati behandling, hvis det vurderes relevant for din problematik,
-          men cupping tilbydes også som en seperat behandling. Cupperne skaber et undertryk,
-          som i det påsatte område gør at blodkarrene udvider sig,
-          hvortil vævet og musklerne forsynes med friskt blod, ilt og næringsstoffer.
-          Ligeledes øges blodgennemstrømningen i området,
-          hvor temperaturen stiger og derved dræber bakterierne og på den måde frigives affaldsstofferne.
-          Efter en cupping behandling er det derfor vigtigt at drikke rigeligt med vand,
-          for at skylle de frigivne affaldsstoffer ud.
-Hvis du tager antikoagulerende medicin, skal du rådføre dig med egen læge inden bestilling  af en cuppingbehandling.
-
-Inden cupperne påsættes, varmes området op manuelt hvorefter cupperne sættes på i  15 min.
-Ved bestilling af Cupping terapi,
-er det muligt at vælge om man vil have cuppet 1, 2 eller 3 forskellige områder på kroppen.
-Områderne er opdelt således: bagside ben – ryg og nakke – forside ben – arme.
-Ved ønsket cupping af flere områder, cuppes 1 område af gangen.
+Cupping terapi er inkluderet i en Musculupati behandling, hvis det vurderes relevant for din problematik, men cupping tilbydes også som en seperat behandling. Cupperne skaber et undertryk, som i det påsatte område gør at blodkarrene udvider sig, hvortil vævet og musklerne forsynes med friskt blod, ilt og næringsstoffer. Ligeledes øges blodgennemstrømningen i området, hvor temperaturen stiger og derved dræber bakterierne og på den måde frigives affaldsstofferne i musklerne. Efter en cupping behandling er det derfor vigtigt at drikke rigeligt med vand, for at skylle de frigivne affaldsstoffer ud. Inden cupperne påsættes, varmes området op med massage hvorefter cupperne sættes på i 15 min.
+        </p>
+        <p>
+          Cupping kan bruges alle steder på kroppen og vil give dig en befriende følelse i det påsatte område.
+        </p>
+        <p>
+          Hvis du tager antikoagulerende medicin, skal du rådføre dig med egen læge inden bestilling af en cuppingbehandling.
         </p>
       </div>
       <div class="col-lg-6">

@@ -13,7 +13,8 @@
         <hr>
   <div v-for="p in pricesMusculupati" :key="p.time">
 
-           <p>{{p.time}} / {{ p.price }}</p>
+           <p>{{ p.text1 }}: {{p.time}} / {{ p.price }}</p>
+           <p>{{ p.text2 }}</p>
         <hr>
 
       </div>

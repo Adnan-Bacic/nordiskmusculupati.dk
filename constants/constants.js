@@ -5,30 +5,22 @@ export const address = 'Valby Torvegade 17, 2500 København';
 export const phone = '61 31 00 94';
 export const pricesMusculupati = {
 	1:{
-		price: '500,-',
-		time: '45 min'
+		text1: 'Førstegangbehandling',
+		price: '600,-',
+		time: '60 min',
+		text2: 'Ved første behandling afdækkes smerterne og/eller skadens omfang igennem enkelte spørgsmål samt bevægelsestests.'
 	},
 	2:{
-		price: '600,-',
-		time: '60 min'
-	},
-	3:{
-		price: '800,-',
-		time: '90 min'
+		text1: 'Opfølgende behandling',
+		price: '500,-',
+		time: '45 min',
+		text2: null
 	},
 };
 export const pricesCupping = {
 	1:{
-		price: '300,-',
+		price: '350,-',
 		time: '30 min'
-	},
-	2:{
-		price: '400,-',
-		time: '45 min'
-	},
-	3:{
-		price: '500,-',
-		time: '60 min'
 	},
 };
 export const openingHours = {
