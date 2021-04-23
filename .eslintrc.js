@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-undef
 module.exports = {
 	'env': {
 		'browser': true,
@@ -22,6 +23,6 @@ module.exports = {
 		'no-unused-vars': ['warn'],
 		'no-multiple-empty-lines': ['warn', { max: 1, maxEOF: 0 }],
 		'no-trailing-spaces': ['warn', { skipBlankLines: true }],
-		'max-len': ['warn', { 'code': 120 }]
+		'max-len': 'off'
 	}
 };

@@ -113,7 +113,8 @@ export default {
 	methods:{
 		//TODO: doesnt work when you first visit the page. only after refresh
 		formSubmit(){
-			this.error = 'Midlertidigt ude a drift. Du kan stadigvæk skrive til direkte til vores E-mail: kontakt@nordiskmusculupati.dk';
+			this.error = 'Midlertidigt ude a drift. ' +
+      'Du kan stadigvæk skrive til direkte til vores E-mail: kontakt@nordiskmusculupati.dk';
 			if(this.formName && this.formEmail && this.formNumber && this.formSubject && this.formMessage){
 				console.log(this.formName, this.formEmail, this.formNumber, this.formSubject, this.formMessage);
 			} else {
