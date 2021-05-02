@@ -5,7 +5,7 @@ export const address = 'Valby Torvegade 17, 2500 København';
 export const phone = '61 31 00 94';
 export const pricesMusculupati = {
 	1:{
-		text1: 'Førstegangbehandling',
+		text1: 'Førstegangsbehandling',
 		price: '600,-',
 		time: '60 min',
 		text2: 'Ved første behandling afdækkes smerterne og/eller skadens omfang igennem enkelte spørgsmål samt bevægelsestests.'
@@ -54,6 +54,8 @@ export const openingHours = {
 	}
 };
 
+//taken from fb: https://www.facebook.com/nordiskmusculupati/reviews/?ref=page_internal
+//project is too small to get data from fb api
 export const reviews = [
 	{
 		id: 1,
