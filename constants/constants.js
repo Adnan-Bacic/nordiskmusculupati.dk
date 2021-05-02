@@ -55,7 +55,7 @@ export const openingHours = {
 };
 
 //taken from fb: https://www.facebook.com/nordiskmusculupati/reviews/?ref=page_internal
-//project is too small to get data from fb api
+//project is too small/simple to get data from fb api. taking the simple approach
 export const reviews = [
 	{
 		id: 1,
