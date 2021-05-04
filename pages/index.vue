@@ -7,10 +7,12 @@
     <p class="h2 text-light">Manuel behandling af muskel, led-, og nervesmerter</p>
   </div>
   <div class="col-12">
-    <button class="btn btn-primary btn-lg">
-      <a href="https://system.easypractice.net/book/nordisk-musculupati?cookie_fixed=1#choose-service"
-      class="text-light" target="_blank" rel="noopener noreferrer">BOOK TID</a>
-    </button>
+      <a href="https://nordisk-musculupati.planway.com/"
+      class="text-light" target="_blank" rel="noopener noreferrer">
+          <button class="btn btn-primary btn-lg">
+      BOOK TID
+          </button>
+      </a>
         <NuxtLink to="/behandlinger">
       <button class="btn btn-outline-primary btn-lg text-light">SE BEHANDLINGER</button>
     </NuxtLink>
@@ -45,7 +47,7 @@ samt teknikker inspireret af osteopati, fysioterapi samt kiropraktik.
 Du vil efter behandlingen opleve øget velvære, mere bevægelsesfrihed og mindre smerte.
 
         </p>
-        <a href="https://system.easypractice.net/book/nordisk-musculupati#choose-service"
+        <a href="https://nordisk-musculupati.planway.com/"
         target="_blank" rel="noopener noreferrer">
     <button class="btn btn-primary">BOOK TID</button>
     </a>
@@ -131,7 +133,7 @@ Du vil efter behandlingen opleve øget velvære, mere bevægelsesfrihed og mindr
           <img src="~/assets/img/damir-hadzovic.png" class="img-fluid" alt="damir hadzovic" />
         </div>
         <div class="col-lg-12 text-center">
-          <a href="https://system.easypractice.net/book/nordisk-musculupati#choose-service"
+          <a href="https://nordisk-musculupati.planway.com/"
         target="_blank" rel="noopener noreferrer">
     <button class="btn btn-primary btn-lg">BOOK TID</button>
     </a>

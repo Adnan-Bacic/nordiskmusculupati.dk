@@ -18,7 +18,7 @@
         <hr>
 
       </div>
-      <a href="https://system.easypractice.net/book/nordisk-musculupati?cookie_fixed=1#choose-service"
+      <a href="https://nordisk-musculupati.planway.com/"
       target="_blank" rel="noopener noreferrer" class="card-link">
 <button class="btn btn-lg btn-block btn-outline-primary">Book tid</button>
 </a>
@@ -37,7 +37,7 @@
         <hr>
 
       </div>
-      <a href="https://system.easypractice.net/book/nordisk-musculupati?cookie_fixed=1#choose-service"
+      <a href="https://nordisk-musculupati.planway.com/"
       target="_blank" rel="noopener noreferrer" class="card-link">
 <button class="btn btn-lg btn-block btn-outline-primary">Book tid</button>
 </a>

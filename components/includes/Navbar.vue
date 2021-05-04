@@ -101,7 +101,7 @@
     </NuxtLink>
       </li>
       <li class="nav-item">
-        <a href="https://system.easypractice.net/book/nordisk-musculupati?cookie_fixed=1#choose-service"
+        <a href="https://nordisk-musculupati.planway.com/"
         class="nav-link" target="_blank" rel="noopener noreferrer">
         <button class="btn btn-primary">BOOK TID</button>
         </a>
