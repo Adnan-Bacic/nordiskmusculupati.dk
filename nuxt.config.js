@@ -40,7 +40,7 @@ export default {
 
 	// Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
 	plugins: [
-		//{ src: '~/plugins/bootstrap-form-validation.js', mode: 'client' },
+		{ src: '~/plugins/bootstrap-form-validation.js', mode: 'client' },
 		{ src: '~/plugins/fb-pixel.js', mode: 'client' }
 	],
 
