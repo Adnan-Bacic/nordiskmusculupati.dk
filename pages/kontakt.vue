@@ -17,7 +17,7 @@
         <div class="col-lg-6 col-md-6 col-sm-12">
           <p><span class="text-danger">*</span> = Felt skal udfyldes</p>
 
-          <form v-on:submit="formSubmit" method="post" class="needs-validation" action="https://nordiskmusculupati.dk/mail.php" novalidate>
+          <form method="post" class="needs-validation" action="https://nordiskmusculupati.dk/mail.php" novalidate>
 <div class="form-row">
     <div class="form-group col-lg-6">
     <label for="name">Navn</label><span class="text-danger">*</span>
@@ -72,6 +72,12 @@
   </div>
   <button type="submit" name="submit" class="btn btn-outline-primary">SEND</button>
 </form>
+<div v-if="this.sent === '1'">
+  <p class="text-success font-weight-bold">Vi har modtaget din email</p>
+</div>
+<div v-if="this.sent === '0'">
+    <p class="text-danger font-weight-bold">Mail kunne ikke sendes</p>
+</div>
 <div v-if="error" class="text-danger font-weight-bold">
   {{ error }}
 </div>
@@ -86,6 +92,7 @@ import { googleMapUrl, email, address, openingHours } from '../constants/constan
 export default {
 	data(){
 		return{
+      sent: undefined,
 			error: '',
 			formName: '',
 			formEmail: '',
@@ -110,17 +117,13 @@ export default {
 			{ property: 'og:url', content: 'https://nordiskmusculupati.dk/kontakt' },
 		]
 	},
-	methods:{
-		//TODO: doesnt work when you first visit the page. only after refresh
-		formSubmit(){
-			//this.error = 'Midlertidigt ude a drift. ' + 'Du kan stadigvæk skrive til direkte til vores E-mail: kontakt@nordiskmusculupati.dk';
-			if(this.formName && this.formEmail && this.formNumber && this.formSubject && this.formMessage){
-				console.log(this.formName, this.formEmail, this.formNumber, this.formSubject, this.formMessage);
-			} else {
-				console.log('not filled out');
-			}
-		}
-	},
+  mounted(){
+    const sent = localStorage.getItem('mailSent');
+      this.sent = sent;
+
+      //we set the sent value to the state so it gets rendered, then remove it so its gone when users refresh
+      localStorage.removeItem('mailSent')
+  },
 	
 };
 </script>
