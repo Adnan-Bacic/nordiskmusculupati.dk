@@ -40,7 +40,7 @@ Du vil efter behandlingen opleve øget velvære, mere bevægelsesfrihed og mindr
       <div class="col-lg-6">
         <h2>Cupping terapi</h2>
         <p>
-Cupping terapi er inkluderet i en Musculupati behandling, hvis det vurderes relevant for din problematik, men cupping tilbydes også som en seperat behandling. Cupperne skaber et undertryk, som i det påsatte område gør at blodkarrene udvider sig, hvortil vævet og musklerne forsynes med friskt blod, ilt og næringsstoffer. Ligeledes øges blodgennemstrømningen i området, hvor temperaturen stiger og derved dræber bakterierne og på den måde frigives affaldsstofferne i musklerne. Efter en cupping behandling er det derfor vigtigt at drikke rigeligt med vand, for at skylle de frigivne affaldsstoffer ud. Inden cupperne påsættes, varmes området op med massage hvorefter cupperne sættes på i 15 min.
+Cupping terapi er inkluderet i en Musculupati behandling, hvis det vurderes relevant for din problematik, men cupping tilbydes også som en seperat behandling. Cupperne skaber et undertryk, som i det påsatte område gør at blodkarrene udvider sig, hvortil vævet og musklerne forsynes med friskt blod, ilt og næringsstoffer. Ligeledes øges blodgennemstrømningen i området, hvor temperaturen stiger og derved dræber bakterierne og på den måde frigives affaldsstofferne i musklerne. Efter en cupping behandling er det derfor vigtigt at drikke rigeligt med vand, for at skylle de frigivne affaldsstoffer ud. Inden cupperne påsættes, varmes området op med massage hvorefter cupperne sættes på.
         </p>
         <p>
           Cupping kan bruges alle steder på kroppen og vil give dig en befriende følelse i det påsatte område.

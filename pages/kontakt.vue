@@ -92,7 +92,7 @@ import { googleMapUrl, email, address, openingHours } from '../constants/constan
 export default {
 	data(){
 		return{
-      sent: undefined,
+			sent: undefined,
 			error: '',
 			formName: '',
 			formEmail: '',
@@ -117,13 +117,13 @@ export default {
 			{ property: 'og:url', content: 'https://nordiskmusculupati.dk/kontakt' },
 		]
 	},
-  mounted(){
-    const sent = localStorage.getItem('mailSent');
-      this.sent = sent;
+	mounted(){
+		const sent = localStorage.getItem('mailSent');
+		this.sent = sent;
 
-      //we set the sent value to the state so it gets rendered, then remove it so its gone when users refresh
-      localStorage.removeItem('mailSent')
-  },
+		//we set the sent value to the state so it gets rendered, then remove it so its gone when users refresh
+		localStorage.removeItem('mailSent');
+	},
 	
 };
 </script>
